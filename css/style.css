@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: greenyellow;
+}
+
+body > h1{
+    color: green;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.container > div{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.backyellow{
+    background-color: rgb(245, 202, 13);
+}
+
+.backblue{
+    background-color: rgb(11, 87, 226);
+}
+
+.backpink{
+    background-color: rgb(194, 3, 76);
+}
