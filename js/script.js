@@ -24,6 +24,14 @@ for (let i = 1; i < 101; i++) {
   }
 
   console.log(i);
+
+  quadrato.addEventListener("mouseenter", function () {
+    quadrato.style.backgroundColor = "red";
+  });
+
+  quadrato.addEventListener("mouseleave", function () {
+    quadrato.style.backgroundColor = "";
+  });
 }
 
 /*
