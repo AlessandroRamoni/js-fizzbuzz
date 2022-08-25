@@ -29,9 +29,9 @@ for (let i = 1; i < 101; i++) {
     quadrato.style.backgroundColor = "red";
   });
 
-  quadrato.addEventListener("mouseleave", function () {
-    quadrato.style.backgroundColor = "";
-  });
+  //   quadrato.addEventListener("mouseleave", function () {
+  //     quadrato.style.backgroundColor = "";
+  //   });
 }
 
 /*
