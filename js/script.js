@@ -2,7 +2,7 @@ console.log("Giovedì");
 
 const griglia = document.querySelector(".container");
 
-for (let i = 1; i < 101; i++) {
+for (let i = 1; i <= 100; i++) {
   const quadrato = document.createElement("div");
   quadrato.style.textAlign = "center";
   griglia.append(quadrato);
