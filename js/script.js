@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++) {
 
   console.log(i);
 
-  quadrato.addEventListener("mouseenter", function () {
+  quadrato.addEventListener("mouseover", function () {
     quadrato.style.backgroundColor = "red";
   });
 
